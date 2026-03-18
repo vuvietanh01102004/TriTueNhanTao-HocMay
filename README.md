@@ -1,1 +1,1 @@
-# TriTueNhanTao-HocMay
+# TriTueNhanTao & HocMay
