@@ -213,6 +213,7 @@ files.download("garbage_model.pth")
 ## 3. Chạy code để xuất hiện giao diện Streamlit
 - Tạo 2 file là app.py và model.py là 2 file code chính
 <img width="630" height="630" alt="image" src="https://github.com/user-attachments/assets/5cccc329-e6c8-4192-a2ba-fcd60d3a48cf" />
+
 - app.py
 ```
 import streamlit as st
@@ -357,6 +358,7 @@ def load_model(model_path):
 
     return model
 ```
+
 - Truy cập terminal rồi chạy lần lượt các code:
 ```
 cd garbage_app
@@ -366,11 +368,22 @@ streamlit run app.py
 ```
 - Sẽ xuất hiện 1 giao diện Streamlit sau:
 <img width="1919" height="859" alt="image" src="https://github.com/user-attachments/assets/b848b682-9a5c-48bc-a514-d5655df64d49" />
+
 - Chọn Browse files -> tìm file Garbage classification vừa giải nén sẽ có 6 thư mục:
 <img width="1153" height="720" alt="image" src="https://github.com/user-attachments/assets/24d112bb-ff66-4da4-836b-7955ac77f853" />
 
 <img width="1919" height="1013" alt="image" src="https://github.com/user-attachments/assets/b9f17c38-fd70-4905-ba18-de45dcf72a2e" />
 
+- Chọn 1 mục nào đó rồi chọn bất kì hình nào để kiểm tra
+<img width="1919" height="853" alt="image" src="https://github.com/user-attachments/assets/01405cb3-6393-4c32-bdc3-d5d9383e7851" />
 
+- Kết quả:
+<img width="1919" height="855" alt="image" src="https://github.com/user-attachments/assets/5bfc8cc4-6d5a-4d72-9bc7-b27b0f363cc8" />
+
+<img width="1919" height="863" alt="image" src="https://github.com/user-attachments/assets/091a8895-059b-4a70-bfe7-1414528a6b32" />
+
+<img width="1919" height="861" alt="image" src="https://github.com/user-attachments/assets/091b52dd-c51e-4e0a-87a4-5f5687e4efec" />
+
+<img width="1919" height="857" alt="image" src="https://github.com/user-attachments/assets/d79cea97-2f6d-4a97-b127-a66320a02f9b" />
 
 
